@@ -15,22 +15,22 @@
  * We've started you by providing you with the 
  */
  
-	function question1(){
-		$("p").css("color", "blue");
-	}
+	//function question1(){
+	//	$("p").css("color", "blue");
+	//}
 
-	$("#button1").click(question1);
+	//$("#button1").click(question1);
 
 /**
  * Question 2:
  * When button 1 is clicked, select all <h2> elements on this page, and change the text to say your name.
  */
 
-	// function question2(){
-	// 	$("replaceMe").replaceMe("replaceMe");
-	// }
+	function question2(){
+	$("h2").replaceWith("Tara");
+	}
 
-	// $("#button1").click(question2);
+	$("#button1").click(question2);
 
 /**
  * Question 3:
